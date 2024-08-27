@@ -1,0 +1,74 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url("fondos.png");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+div#cont{
+    background-color: darkred;
+    height: 100px;
+    width: 100%;
+    margin: auto;
+    padding: auto;
+    display: inline-flex;
+}
+img#imagen1{
+    height: 90px;
+    width: 300px;
+    margin-left: 50px;
+}
+img#qro{
+    height: 100px;
+    width: 100px;
+    margin-left: 60%;
+}
+.cont1{
+    background-color:#ffffff;
+    border: 5px solid darkred;
+    display: inline-flex;
+    height: 300px;
+    width:300px;
+    margin-left: 40% ;
+    text-align: center;
+    align-items: center;
+}
+.menu {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu li {
+    margin-bottom: 8px;
+}
+
+.menu li button {
+    width: 200px;
+    padding: 10px 8px;
+    background-color: rgb(60, 60, 60);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display:flex;
+    margin-left: 50px;
+}
+
+.menu li button:hover {
+    background-color: darkred;
+}
+.titulo{
+    text-align: center;
+    font-family: sans-serif;
+    display: inline-flex;
+    margin-left: 600px;
+}
+.est{
+    text-align: center;
+    display: inline-flex;
+    margin-left: -800px;
+    color: #ffff;
+}
